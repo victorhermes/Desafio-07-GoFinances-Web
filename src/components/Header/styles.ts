@@ -17,6 +17,15 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      .colorMenu {
+        border-bottom: 2px solid orange;
+        padding-bottom: 5px;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+
       a {
         color: #fff;
         text-decoration: none;
